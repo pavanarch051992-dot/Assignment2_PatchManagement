@@ -31,8 +31,8 @@ module "update_management" {
   location                     = azurerm_resource_group.main.location
   automation_account_name      = module.automation_account.name
   log_analytics_workspace_id   = module.log_analytics_workspace.id
-  admin_username                = "adminuser"
-  admin_password                = "P@ssw0rd1234!"
+  admin_username                = module.update_management.assignment2.admin_username
+  admin_password                = module.update_management.assignment2.admin_password
 }
 
 output "automation_account_id" {

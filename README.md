@@ -51,15 +51,3 @@ To monitor patch compliance, you can use the Azure portal or Azure CLI:
   ```
   az automation update-management get-compliance --resource-group <resource-group-name> --automation-account-name <automation-account-name>
   ```
-
-### Example Usage
-
-Refer to the `examples/usage.tf` file for a practical example of how to link a VM to Update Management and schedule a weekly patch deployment.
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
